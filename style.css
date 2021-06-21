@@ -1,3 +1,26 @@
 body {
-	background: blue;
+        background: lightslategray;
+}
+img#mainImage {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+}
+img#snowMan, #flower, #lightBulb {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 50px;
+        padding-bottom: 9px;
+}
+div#popupMain, #popupSnow, #popupFlower, #popupLightBulb {
+        text-align: center;
+}
+h1 {
+        text-align: center;
+}
+.highlightBlack {
+        background-color: black;
+        color: lightgray;
 }
