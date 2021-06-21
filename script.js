@@ -1,12 +1,24 @@
+const blankSpace1 = document.getElementById('blankSpace1');
+const blankSpace2 = document.getElementById('blankSpace2');
+function hideBlankSpace(element) {
+	element.style.display = 'none';
+};
+function showBlankSpace(element) {
+	element.style.display = 'block';
+};
+
 const snowMan = document.getElementById('snowMan');
 snowMan.addEventListener('click', function () {
 	document.getElementById('mainImage').src = "https://images4.imagebam.com/37/61/e5/ME17N09_o.jpeg";
 });
 snowMan.addEventListener('mouseover', function () {
 	document.getElementById('popupSnow').style.display = 'block';
+	hideBlankSpace(blankSpace1);
 });
 snowMan.addEventListener('mouseout', function () {
 	document.getElementById('popupSnow').style.display = 'none';
+	showBlankSpace(blankSpace1);
+
 });
 
 const flower = document.getElementById('flower');
@@ -15,9 +27,11 @@ flower.addEventListener('click', function () {
 });
 flower.addEventListener('mouseover', function () {
 	document.getElementById('popupFlower').style.display = 'block';
+	hideBlankSpace(blankSpace1);
 });
 flower.addEventListener('mouseout', function () {
 	document.getElementById('popupFlower').style.display = 'none';
+	showBlankSpace(blankSpace1);
 });
 
 const lightBulb = document.getElementById('lightBulb');
@@ -26,9 +40,11 @@ lightBulb.addEventListener('click', function () {
 });
 lightBulb.addEventListener('mouseover', function () {
 	document.getElementById('popupLightBulb').style.display = 'block';
+	hideBlankSpace(blankSpace1);
 });
 lightBulb.addEventListener('mouseout', function () {
 	document.getElementById('popupLightBulb').style.display = 'none';
+	showBlankSpace(blankSpace1);
 });
 
 const mainImage = document.getElementById('mainImage');
@@ -37,9 +53,11 @@ mainImage.addEventListener('click', function () {
 });
 mainImage.addEventListener('mouseover', function () {
 	document.getElementById('popupMain').style.display = 'block';
+	hideBlankSpace(blankSpace2);
 });
 mainImage.addEventListener('mouseout', function () {
 	document.getElementById('popupMain').style.display = 'none';
+	showBlankSpace(blankSpace2);
 });
 
 const beardSeasons = document.getElementById('beardSeasons');

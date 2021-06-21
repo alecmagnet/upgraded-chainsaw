@@ -38,15 +38,36 @@ img#mainImage {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 30%;
+        width: 35%;
+	clear:left;
+}
+div#imageMenu {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+div#imageMenuPopups {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	clear: left;
 }
 img#snowMan, #flower, #lightBulb {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        height: 50px;
-        padding-bottom: 9px;
+	float: left;
+        width: 10%;
+        padding-right: 21.3%;
 }
-div#popupMain, #popupSnow, #popupFlower, #popupLightBulb {
+div#popupMain, #popupFlower {
         text-align: center;
+}
+div#popupSnow {
+	text-align: left;
+}
+div#popupLightBulb {
+	text-align: right;
+}
+div#blankSpace1, #blankSpace2 {
+	padding-top: 18px;
 }
