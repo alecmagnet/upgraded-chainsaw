@@ -62,8 +62,8 @@ mainImage.addEventListener('mouseout', function () {
 
 const beardSeasons = document.getElementById('beardSeasons');
 beardSeasons.addEventListener('mouseover', function() {
-	beardSeasons.style.color = 'orange';
-	beardSeasons.style.borderColor = 'orange';
+	beardSeasons.style.color = 'chocolate';
+	beardSeasons.style.borderColor = 'chocolate';
 })
 beardSeasons.addEventListener('mouseout', function () {
 	beardSeasons.style.color = 'lightgray';
