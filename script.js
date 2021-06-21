@@ -41,3 +41,14 @@ mainImage.addEventListener('mouseover', function () {
 mainImage.addEventListener('mouseout', function () {
 	document.getElementById('popupMain').style.display = 'none';
 });
+
+const beardSeasons = document.getElementById('beardSeasons');
+beardSeasons.addEventListener('mouseover', function() {
+	beardSeasons.style.color = 'orange';
+	beardSeasons.style.borderColor = 'orange';
+})
+beardSeasons.addEventListener('mouseout', function () {
+	beardSeasons.style.color = 'lightgray';
+	beardSeasons.style.borderColor = 'black';
+
+})
