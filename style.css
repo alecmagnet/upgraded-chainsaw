@@ -88,3 +88,12 @@ div#popupLightBulb {
 div#blankSpace1, #blankSpace2 {
 	padding-top: 18px;
 }
+
+div#credits {
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	font-style: italic;
+	font-size: small;
+
+}
