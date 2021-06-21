@@ -34,6 +34,7 @@ h1 {
 	padding-left: 10px;
 	padding-right: 10px;
 }
+
 img#mainImage {
         display: block;
         margin-left: auto;
@@ -42,6 +43,7 @@ img#mainImage {
 	min-width: 300px;
 	clear:left;
 }
+
 div#imageMenu {
 	display: block;
 	margin-left: auto;
@@ -57,13 +59,22 @@ div#imageMenuPopups {
 	min-width: 300px;
 	clear: left;
 }
+
 img#snowMan, #flower, #lightBulb {
 	float: left;
-        width: 15%;
+        width: 12%;
 }
-img#snowMan, #flower {
-        padding-right: 27.5%;
+img#snowMan {
+        padding-left: 5%;
+	padding-right: 27%;
 }
+img#flower {
+	padding-right: 27%;
+}
+img#lightBulb {
+	padding-right: 5%;
+}
+
 div#popupMain, #popupFlower {
         text-align: center;
 }
@@ -73,6 +84,7 @@ div#popupSnow {
 div#popupLightBulb {
 	text-align: right;
 }
+
 div#blankSpace1, #blankSpace2 {
 	padding-top: 18px;
 }
