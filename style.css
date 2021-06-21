@@ -1,5 +1,27 @@
 body {
         background: lightslategray;
+	text-align: center;
+}
+p {
+	text-align: center;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgb(180, 190, 205);
+	line-height: 1.25;
+	font-size: 18px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+h1 {
+        text-align: center;
+}
+.highlightBlack {
+        background-color: black;
+        color: lightgray;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 img#mainImage {
         display: block;
@@ -16,11 +38,4 @@ img#snowMan, #flower, #lightBulb {
 }
 div#popupMain, #popupSnow, #popupFlower, #popupLightBulb {
         text-align: center;
-}
-h1 {
-        text-align: center;
-}
-.highlightBlack {
-        background-color: black;
-        color: lightgray;
 }
